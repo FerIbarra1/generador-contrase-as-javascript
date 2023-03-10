@@ -1,0 +1,68 @@
+body{
+    background-color: #1B262C;
+    color: #fff;
+}
+.generador{
+    background-color: #0f4c75;
+    width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+div.contraseña{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.contraseña input{
+    padding: 7px 10px;
+    background-color: #3282B8;
+    border: 0;
+    color: #fff;
+}
+button{
+    background-color: #126298;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+div.contraseña button{
+    border-radius: 0;
+}
+div.rango{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+div.rango span{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-left: 20px;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+div.opciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+div.opciones label{
+    display: block;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+button.generador{
+    background-color: #126298;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
